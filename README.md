@@ -5,7 +5,8 @@ Reguły rozmycia. Przygotowane tylko dla 'NMA'.
 
 
 ## mgr_data_preprocess_EURUSD_1h
--'Return' - zwrot logarytmiczny 
+
+- 'Return' - zwrot logarytmiczny 
 - 'Up/Down' - sprawdza, które zwroty są dodanie/ujemne i przypisuje wartość z 'Return' do odpowiedniej kolumny
 - 'avg_14up/down' - 14 dniowa 'strata' (do wyliczenia RSI)
 - 'RS_14' - avg_14up/avg_14down
