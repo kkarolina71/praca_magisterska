@@ -7,8 +7,8 @@ Funkcje:
 
 - generate_signals(df)
 
-	przypisuje wartość 1 jeśli 5MA jest wyższa niż 15MA - 0 w przeciwnym przypadku
-	Wynik zapisywany w kolumnie "Signal"
+	przypisuje wartość $1$ jeśli $'5MA'$ jest wyższa niż $'15MA'$ - $0$ w przeciwnym przypadku
+	Wynik zapisywany w kolumnie $"Signal"$
 	
 - calculate_NMA(df)
 
@@ -16,9 +16,11 @@ Funkcje:
 
 - create_fuzzy_system(data, variable_name, universe_of_discourse)
 
->	universe_of_discourse - zmienić na automatyczne pobieranie wartości min i max!!!!
-	
 	Reguły rozmycia
+
+- fuzzyMACDInput(df)
+	### Nie działa poprawnie
+	
 	
 ## mgr_data_preprocess_EURUSD_1h
 
