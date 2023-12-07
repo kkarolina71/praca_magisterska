@@ -1,28 +1,17 @@
 # praca_magisterska
+***
 
 ## Fuzzification EURUSD_1h 
-Reguły rozmycia. Przygotowane tylko dla 'NMA'.
+Generowanie sygnałów oraz funkcje rozmycia. 
 
-Funkcje:
+* Niepoprawnie stworzone strategie(?) - str 6  <- przejrzeć
+* Sprawdzić jeszce raz normalizację wkaźników
+* Sygnały kupna, sprzedaży <- do weryfikacji
+* Reguły rozmycia - str 8
 
-- generate_signals(df)
 
-	przypisuje wartość $1$ jeśli $'5MA'$ jest wyższa niż $'15MA'$ - $0$ w przeciwnym przypadku
-	Wynik zapisywany w kolumnie $"Signal"$
-	
-- calculate_NMA(df)
-
-	$nma = 100 * ((fast_ma - slow\_ma)/fast\_ma)$
-
-- create_fuzzy_system(data, variable_name, universe_of_discourse)
-
-	Reguły rozmycia
-
-- fuzzyMACDInput(df)
-	### Nie działa poprawnie
-	
-	
 ## mgr_data_preprocess_EURUSD_1h
+
 
  - 'Return' - zwrot logarytmiczny 
  - 'Up/Down' - sprawdza, które zwroty są dodanie/ujemne i przypisuje wartość z 'Return' do odpowiedniej kolumny
