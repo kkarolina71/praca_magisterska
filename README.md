@@ -3,7 +3,6 @@
 
 ## Fuzzification EURUSD_1h 
 
-* Niepoprawnie stworzone strategie(?) - str 6  <- przejrzeć
 * Sprawdzić jeszce raz normalizację wkaźników
 * Sygnały kupna, sprzedaży <- do weryfikacji
 * Reguły rozmycia - str 8
