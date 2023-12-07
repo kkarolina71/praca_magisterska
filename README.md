@@ -2,7 +2,6 @@
 ***
 
 ## Fuzzification EURUSD_1h 
-Generowanie sygnałów oraz funkcje rozmycia. 
 
 * Niepoprawnie stworzone strategie(?) - str 6  <- przejrzeć
 * Sprawdzić jeszce raz normalizację wkaźników
